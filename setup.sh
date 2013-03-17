@@ -10,9 +10,7 @@ do
 	ln -s `pwd`/$var $HOME/$var
 done
 
-ex <<EOS
-NeoBundleInstall
-EOS
+vim -S setup.vim
 
 if [ -d $HOME/.vim/bundle/vimproc ]; then
 	make -C $HOME/.vim/bundle/vimproc -fmake_unix.mak
