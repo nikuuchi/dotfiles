@@ -5,14 +5,6 @@
 ## nvm
 if [[ -f ~/.nvm/nvm.sh ]]; then
 	source ~/.nvm/nvm.sh
-
-	if which nvm >/dev/null 2>&1 ;then
-		_nodejs_use_version="v0.4.0"
-		if nvm ls | grep -F -e "${_nodejs_use_version}" >/dev/null 2>&1 ;then
-			nvm use "${_nodejs_use_version}" >/dev/null
-		fi
-		unset _nodejs_use_version
-	fi
 fi
 
 ## Scala
@@ -22,3 +14,9 @@ if [ -d /usr/local/lib/scala ]; then
 	export PATH=$PATH:$SCALA_HOME/bin
 fi
 
+#-- EMscripten
+export LLVM_ROOT=/usr/local/bin
+export PYTHON=/usr/bin/python
+export NODE_JS=/home/uchida/.nvm/v0.10.1/bin/node
+export EMSCRIPTEN_ROOT=/home/uchida/dev/work/emscripten
+export PATH=$PATH:$EMSCRIPTEN_ROOT

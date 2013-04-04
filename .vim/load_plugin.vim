@@ -21,5 +21,6 @@ NeoBundle 'sudo.vim'
 
 NeoBundle 'derekwyatt/vim-scala'
 NeoBundle 'nginx.vim'
+NeoBundle 'taku-o/vim-toggle'
 
 filetype plugin indent on     " NeoBundle settings end
