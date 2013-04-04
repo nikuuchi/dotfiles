@@ -17,6 +17,6 @@ fi
 #-- EMscripten
 export LLVM_ROOT=/usr/local/bin
 export PYTHON=/usr/bin/python
-export NODE_JS=/home/uchida/.nvm/v0.10.1/bin/node
-export EMSCRIPTEN_ROOT=/home/uchida/dev/work/emscripten
+export NODE_JS=$HOME/.nvm/v0.10.1/bin/node #FIXME
+export EMSCRIPTEN_ROOT=$HOME/dev/work/emscripten
 export PATH=$PATH:$EMSCRIPTEN_ROOT
