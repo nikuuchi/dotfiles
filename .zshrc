@@ -22,3 +22,5 @@ fi
 
 zstyle :compinstall filename '$HOME/.zshrc'
 autoload -Uz compinit; compinit
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"

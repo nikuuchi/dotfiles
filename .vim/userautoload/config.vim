@@ -11,7 +11,7 @@ set foldlevel=100 "Don't autofold anything
 
 " == key config ==
 nmap ; :
-nnoremap t <C-w>
+nnoremap e <C-w>
 inoremap <C-g> <ESC>
 nnoremap <C-g> <ESC>
 "nnoremap <C-c> :set expandtab<CR>

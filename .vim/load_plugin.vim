@@ -23,4 +23,11 @@ NeoBundle 'derekwyatt/vim-scala'
 NeoBundle 'nginx.vim'
 NeoBundle 'taku-o/vim-toggle'
 
+NeoBundle 'digitaltoad/vim-jade'
+NeoBundle 'leafgarland/typescript-vim'
+
+NeoBundle 'jnwhiteh/vim-golang'
+NeoBundle 'mattn/sonictemplate-vim'
+
+
 filetype plugin indent on     " NeoBundle settings end

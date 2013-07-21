@@ -45,4 +45,4 @@ alias open='xdg-open'
 alias v='vim'
 alias vi='vim'
 alias vr='vim -R'
-
+alias knhi='konoha -IJavaScript.String -IJavaScript.Regexp -ISyntax.GlobalVariable -IType.Json'
