@@ -22,6 +22,7 @@ autocmd FileType javascript setlocal et   sw=4 ts=4 sts=4
 autocmd FileType c          setlocal noet sw=4 ts=4 sts=4
 autocmd FileType cpp        setlocal noet sw=4 ts=4 sts=4
 autocmd FileType kwt        setlocal noet sw=4 ts=4 sts=4
+autocmd FileType go         setlocal et   sw=4 ts=4 sts=4
 autocmd FileType ruby       setlocal et   sw=4 ts=4 sts=4
 autocmd FileType python     setlocal et   sw=4 ts=4 sts=4
 autocmd FileType php        setlocal et   sw=4 ts=4 sts=4
