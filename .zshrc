@@ -22,5 +22,7 @@ fi
 
 zstyle :compinstall filename '$HOME/.zshrc'
 autoload -Uz compinit; compinit
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
+if [ -d ~/.rbenv ]; then
+	export PATH="$HOME/.rbenv/bin:$PATH"
+	eval "$(rbenv init -)"
+fi
