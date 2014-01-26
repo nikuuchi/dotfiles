@@ -15,7 +15,7 @@ set noexpandtab
 
 " local settings
 
-autocmd FileType html       setlocal et   sw=2 ts=2 sts=2
+autocmd FileType html       setlocal et   sw=4 ts=4 sts=4
 autocmd FileType css        setlocal et   sw=2 ts=2 sts=2
 autocmd FileType coffee     setlocal et   sw=2 ts=2 sts=2
 autocmd FileType javascript setlocal et   sw=4 ts=4 sts=4
