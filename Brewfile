@@ -19,6 +19,7 @@ install sqlite
 install tig
 install tmux
 install zsh
+install gibo
 
 cask install vagrant
 cask install virtualbox
