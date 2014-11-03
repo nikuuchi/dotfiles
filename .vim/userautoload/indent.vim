@@ -15,8 +15,9 @@ set noexpandtab
 
 " local settings
 
-autocmd FileType html       setlocal et   sw=4 ts=4 sts=4
-autocmd FileType jade       setlocal et   sw=4 ts=4 sts=4
+autocmd FileType html       setlocal et   sw=2 ts=2 sts=2
+autocmd FileType jade       setlocal et   sw=2 ts=2 sts=2
+autocmd FileType stylus     setlocal et   sw=2 ts=2 sts=2
 autocmd FileType css        setlocal et   sw=2 ts=2 sts=2
 autocmd FileType coffee     setlocal et   sw=2 ts=2 sts=2
 autocmd FileType javascript setlocal et   sw=4 ts=4 sts=4
@@ -30,3 +31,5 @@ autocmd FileType python     setlocal et   sw=4 ts=4 sts=4
 autocmd FileType php        setlocal et   sw=4 ts=4 sts=4
 autocmd FileType markdown   setlocal et   sw=4 ts=4 sts=4
 
+au BufRead,BufNewFile *.pegjs set ft=peg
+au BufRead,BufNewFile *.p4d set ft=peg
